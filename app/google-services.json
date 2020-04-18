@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "138624139045",
+    "firebase_url": "https://cornershop-74244.firebaseio.com",
+    "project_id": "cornershop-74244",
+    "storage_bucket": "cornershop-74244.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138624139045:android:5a62aa283131335fb9e4cc",
+        "android_client_info": {
+          "package_name": "com.coder24.cornershop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "138624139045-gpg0quo8ggn62tfctb83t9cl1pjt30mh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.coder24.cornershop",
+            "certificate_hash": "9d277fb3b5586ba87a40983e298166c7ae3bce7b"
+          }
+        },
+        {
+          "client_id": "138624139045-1jgsl0s1vjc9j2h8ma75l1nb6ok4sif8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6PpUFQUNbEOKostKjq2-tHt_s_Yd6M_g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "138624139045-1jgsl0s1vjc9j2h8ma75l1nb6ok4sif8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
