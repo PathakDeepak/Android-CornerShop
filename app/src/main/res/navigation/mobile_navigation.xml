@@ -30,19 +30,13 @@
     </fragment>
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.coder24.cornershop.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
-
-    <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.coder24.cornershop.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
-    <fragment
         android:id="@+id/nav_logout"
         android:name="com.coder24.cornershop.ui.logout.LogoutFragment"
         android:label="Logout"
         tools:layout="@layout/logout_fragment" />
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.coder24.cornershop.SettingFragment"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting" />
 </navigation>
