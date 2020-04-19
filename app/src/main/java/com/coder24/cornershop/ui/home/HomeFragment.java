@@ -11,16 +11,23 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.coder24.cornershop.R;
+import com.coder24.cornershop.databinding.FragmentHomeBinding;
+import com.google.firebase.database.DatabaseReference;
 
 public class HomeFragment extends Fragment {
 
     private HomeViewModel homeViewModel;
 
+    FragmentHomeBinding binding;
+
+
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        homeViewModel =
+
+        /*homeViewModel =
                 ViewModelProviders.of(this).get(HomeViewModel.class);
         View root = inflater.inflate(R.layout.fragment_home, container, false);
         final TextView textView = root.findViewById(R.id.text_home);
@@ -30,6 +37,15 @@ public class HomeFragment extends Fragment {
                 textView.setText(s);
             }
         });
-        return root;
+        return root;*/
+        binding = FragmentHomeBinding.inflate(getLayoutInflater());
+        return binding.getRoot();
+    }
+
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+        binding.textHome.setText("ViewBinding in Home");
+
     }
 }
